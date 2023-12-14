@@ -1,4 +1,4 @@
-//Create a class named time with data members days,hours,minutes and seconds.Use the necessary member function and WAP to add two times display.
+//Create a class named time with data members days,hours,minutes and seconds.Use the necessary member function and WAP to add two times and display the sum.
 #include<iostream>
 #include<conio.h>
 using namespace std;
