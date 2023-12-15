@@ -18,7 +18,7 @@ class dist
         dist temp;
         temp.inch=d1.inch+d2.inch;
         temp.ft=d1.ft+d2.ft+temp.inch/12;
-        temp.inch=temp.inch/12;
+        temp.inch=temp.inch%12;
         return(temp);
 
     }
