@@ -2,7 +2,7 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-inline float si(float p,float t,float r=0.15)
+inline float si(float p,float t,float r=15)
 {
     return((p*t*r)/100);
 }
